@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.0
+MinimumVisualStudioVersion = 17.0.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HugeGraph.Net", "src/HugeGraph.Net/HugeGraph.Net.csproj", "{BC868E6E-C6F3-4123-95F3-2D5278AB36B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HugeGraph.Net.Tests", "test/HugeGraph.Net.Tests/HugeGraph.Net.Tests.csproj", "{6B2B35E6-9A9F-4698-B30A-F198E489F789}"
+EndProject
+Global
+    GlobalSection(SolutionConfigurationPlatforms) = preSolution
+        Debug|Any CPU = Debug|Any CPU
+        Release|Any CPU = Release|Any CPU
+    EndGlobalSection
+    GlobalSection(ProjectConfigurationPlatforms) = postSolution
+        {BC868E6E-C6F3-4123-95F3-2D5278AB36B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+        {BC868E6E-C6F3-4123-95F3-2D5278AB36B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+        {BC868E6E-C6F3-4123-95F3-2D5278AB36B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+        {BC868E6E-C6F3-4123-95F3-2D5278AB36B4}.Release|Any CPU.Build.0 = Release|Any CPU
+        {6B2B35E6-9A9F-4698-B30A-F198E489F789}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+        {6B2B35E6-9A9F-4698-B30A-F198E489F789}.Debug|Any CPU.Build.0 = Debug|Any CPU
+        {6B2B35E6-9A9F-4698-B30A-F198E489F789}.Release|Any CPU.ActiveCfg = Release|Any CPU
+        {6B2B35E6-9A9F-4698-B30A-F198E489F789}.Release|Any CPU.Build.0 = Release|Any CPU
+    EndGlobalSection
+EndGlobal
