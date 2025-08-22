@@ -19,7 +19,13 @@
     <!-- Logging abstractions provide ILogger support -->
     <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.0" />
     <!-- System.Text.Json is used for JSON serialization/deserialization -->
-    <PackageReference Include="System.Text.Json" Version="8.0.0" />
+    <PackageReference Include="System.Text.Json" Version="8.0.6" />
+    <!-- Microsoft.Extensions.Http for HttpClient factory support -->
+    <PackageReference Include="Microsoft.Extensions.Http" Version="8.0.0" />
+    <!-- Microsoft.Extensions.Options for options pattern -->
+    <PackageReference Include="Microsoft.Extensions.Options" Version="8.0.0" />
+    <!-- Microsoft.Extensions.DependencyInjection.Abstractions for DI support -->
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.0" />
   </ItemGroup>
 
 </Project>
