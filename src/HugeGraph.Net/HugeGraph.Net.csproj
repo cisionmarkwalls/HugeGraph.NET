@@ -12,8 +12,17 @@
     <Company>cisionmarkwalls</Company>
     <Description>A strongly typed .NET client for executing Cypher queries against Apache HugeGraph.</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageTags>HugeGraph;Cypher;Graph Database;Client</PackageTags>
+    <PackageTags>HugeGraph;Cypher;Graph Database;Client;Apache</PackageTags>
+    <PackageProjectUrl>https://github.com/cisionmarkwalls/HugeGraph.NET</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/cisionmarkwalls/HugeGraph.NET</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="../../README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
 
   <ItemGroup>
     <!-- Logging abstractions provide ILogger support -->
