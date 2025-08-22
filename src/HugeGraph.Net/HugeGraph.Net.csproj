@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <!-- Enable nullable reference types and implicit usings for concise code -->
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <!-- NuGet package metadata -->
+    <PackageId>HugeGraph.Net</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>cisionmarkwalls</Authors>
+    <Company>cisionmarkwalls</Company>
+    <Description>A strongly typed .NET client for executing Cypher queries against Apache HugeGraph.</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageTags>HugeGraph;Cypher;Graph Database;Client</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Logging abstractions provide ILogger support -->
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.0" />
+    <!-- System.Text.Json is used for JSON serialization/deserialization -->
+    <PackageReference Include="System.Text.Json" Version="8.0.0" />
+  </ItemGroup>
+
+</Project>
